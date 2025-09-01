@@ -8,8 +8,8 @@ const PORT = process.env.PORT || 3001;
 app.use((req, res, next) => {
   const allowedOrigins = [
     'http://localhost:3000',
-    'https://qwipo-customer-management.vercel.app',
-    'https://your-frontend-domain.vercel.app' // Replace with your actual Vercel domain
+    'https://qwipo-client.vercel.app',
+    'https://qwipo-customer-management.vercel.app'
   ];
   
   const origin = req.headers.origin;
